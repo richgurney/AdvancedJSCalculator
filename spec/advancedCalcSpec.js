@@ -34,4 +34,12 @@ describe("Testing the calculatorMethods.js with TDD",function() {
       // Called Expectations and Matchers (Which a boolean)
       expect(app.divideTwoNumbers(4,2)).toEqual(2);
     });
+
+    // What should the function do?
+    // divideTwoNumbers
+    it("should get power of base and exponent", function(){
+      // Assertion to check the function is correct
+      // Called Expectations and Matchers (Which a boolean)
+      expect(app.pow(2,2)).toEqual(4);
+    });
 });
